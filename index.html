@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Harshini Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+<h2 class="logo">Harshini</h2>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="section">
+<h1>Hi 👋 I am Harshini</h1>
+<p>Full Stack Developer Intern</p>
+<button onclick="showMessage()">Hire Me</button>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+<h2>My Skills</h2>
+<div class="card">HTML</div>
+<div class="card">CSS</div>
+<div class="card">JavaScript</div>
+<div class="card">React</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+<h2>Projects</h2>
+<div class="card">Portfolio Website</div>
+<div class="card">Mini CRM System</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+<h2>Contact Me</h2>
+<form onsubmit="return submitForm()">
+<input type="text" placeholder="Your Name" required><br>
+<input type="email" placeholder="Your Email" required><br>
+<textarea placeholder="Message"></textarea><br>
+<button type="submit">Send</button>
+</form>
+</section>
+
+<footer>
+<p>© 2026 Harshini | Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
